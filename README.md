@@ -1,2 +1,5 @@
-# data-warehousing-and-mining
-A practical implementation of data preprocessing, data warehousing, OLAP, frequent pattern mining, classification, and clustering techniques using WEKA and ETL workflows.
+<h1 align="center">📦 DATA WAREHOUSING AND DATA MINING</h1>
+
+<p align="center">
+MCA Laboratory Work: Data Preprocessing, ETL, OLAP, Association Rule Mining, Classification, and Clustering implemented using WEKA and Data Warehouse Design Principles.
+</p>
