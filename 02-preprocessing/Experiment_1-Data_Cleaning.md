@@ -68,5 +68,16 @@ There were no duplicate rows in this dataset, so the total number of instances r
 
 ![Removed Duplicate Values](/07-screenshots/cleaning/duplicates_removed.png)
 
+---
+
+### 5) Normalizing Data (Optional Step)
+I also applied:
+Filter → unsupervised → attribute → Normalize
+However, since this dataset contains **only nominal attributes**, normalization **did not change the values**.  
+I still included this step to show awareness of when normalization applies.
+
+📸 *Screenshot 4: normalized.png*
+
+![Normalized Values](/07-screenshots/cleaning/normalize.png)
 
 
