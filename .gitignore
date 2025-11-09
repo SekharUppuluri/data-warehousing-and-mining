@@ -1,5 +1,20 @@
-*.dmb
-*.rsc
-*.int
-*.lk
-*.zip
+# System files
+.DS_Store
+Thumbs.db
+
+# Java / Weka cache
+*.class
+*.model
+*.log
+
+# Temporary working exports
+*.tmp
+*.temp
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# DO NOT ignore datasets — we need them for reproducibility
+# /datasets/ is allowed intentionally
