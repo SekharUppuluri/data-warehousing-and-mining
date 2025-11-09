@@ -6,6 +6,15 @@ MCA Laboratory Work: Data Preprocessing, ETL, OLAP, Association Rule Mining, Cla
 
 ---
 
+## 📚 Table of Contents
+
+1. [Project Overview](#-project-overview)
+2. [Skills Demonstrated](#-skills-demonstrated)
+3. [Repository Structure](#-repository-structure)
+4. [Tools Used](#-tools-used)
+5. [How to Use This Repository](#-how-to-use-this-repository)
+6. [License](#-license)
+7. [Author](#-author)
 
 ---
 
