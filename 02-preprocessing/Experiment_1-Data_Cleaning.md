@@ -124,4 +124,14 @@ While performing this experiment, I observed that **WEKA 3.9.6** automatically h
 The dataset was successfully cleaned and prepared for further data processing and data mining tasks.  
 Missing values were handled, duplicate checks were done, unnecessary attributes were removed, and nominal attributes were encoded properly.
 
+---
+
+## Viva Notes (What I Will Say If Asked)
+
+| Question | My Answer |
+|---------|-----------|
+| Why did normalization not change values? | Because the dataset contains only nominal (categorical) values. Normalization affects only numeric data. |
+| How were missing nominal values replaced? | WEKA replaced them using the **mode**, which is the most frequent category. |
+| Why convert nominal to binary? | To make categorical data usable in algorithms that require numeric input. |
+
 
