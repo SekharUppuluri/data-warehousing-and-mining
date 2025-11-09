@@ -33,12 +33,12 @@ WEKA provides filters to carry out these tasks easily.
 ## Procedure (Steps I Performed)
 
 ### 1) Loading Dataset
-I opened WEKA → Explorer → Preprocess and loaded the dataset: **weather.nominal.arff**
+- I opened WEKA → Explorer → Preprocess and loaded the dataset: **weather.nominal.arff**
 
 
 ### 2) Introducing Missing Values (for demonstration)
-I opened the **Edit** panel and manually removed some values so that they became `?` (missing).  
-This allowed me to demonstrate how WEKA handles missing data.
+- I opened the **Edit** panel and manually removed some values so that they became `?` (missing).
+- This allowed me to demonstrate how WEKA handles missing data.
 
 📸 *Screenshot 1: dataset_with_missing.png*
 
@@ -47,11 +47,11 @@ This allowed me to demonstrate how WEKA handles missing data.
 ---
 
 ### 3) Replacing Missing Values
-I used the filter:
+- I used the filter:
 Filter → unsupervised → attribute → ReplaceMissingValues
 
-This filled the missing nominal values by using the **mode** (most frequent value).  
-After applying it, the missing value count became **zero**.
+- This filled the missing nominal values by using the **mode** (most frequent value).  
+- After applying it, the missing value count became **zero**.
 
 📸 *Screenshot 2: missing_replaced.png*
 
@@ -60,9 +60,9 @@ After applying it, the missing value count became **zero**.
 ---
 
 ### 4) Removing Duplicate Records
-I applied the filter:
+- I applied the filter:
 Filter → unsupervised → instance → RemoveDuplicates
-There were no duplicate rows in this dataset, so the total number of instances remained the same.
+- There were no duplicate rows in this dataset, so the total number of instances remained the same.
 
 📸 *Screenshot 3: duplicates_removed.png*
 
@@ -71,10 +71,10 @@ There were no duplicate rows in this dataset, so the total number of instances r
 ---
 
 ### 5) Normalizing Data (Optional Step)
-I also applied:
+- I also applied:
 Filter → unsupervised → attribute → Normalize
-However, since this dataset contains **only nominal attributes**, normalization **did not change the values**.  
-I still included this step to show awareness of when normalization applies.
+- However, since this dataset contains **only nominal attributes**, normalization **did not change the values**.  
+- I still included this step to show awareness of when normalization applies.
 
 📸 *Screenshot 4: normalized.png*
 
@@ -83,10 +83,10 @@ I still included this step to show awareness of when normalization applies.
 ---
 
 ### 6) Removing an Irrelevant Attribute
-Next, I removed an attribute using:
-Filter → unsupervised → attribute → Remove
-I specified the attribute index to remove.  
-This helped reduce unnecessary features in the dataset.
+- Next, I removed an attribute using:
+- Filter → unsupervised → attribute → Remove
+- I specified the attribute index to remove.  
+- This helped reduce unnecessary features in the dataset.
 
 📸 *Screenshot 5: attribute_removed.png*
 
@@ -96,9 +96,9 @@ This helped reduce unnecessary features in the dataset.
 ---
 
 ### 7) Converting Nominal Attributes to Binary (Attribute Encoding)
-Finally, I applied:
+- Finally, I applied:
 Filter → unsupervised → attribute → NominalToBinary
-This converted categorical values into binary (0/1) format, which is helpful for algorithms that require numeric input.
+- This converted categorical values into binary (0/1) format, which is helpful for algorithms that require numeric input.
 
 📸 *Screenshot 6: nominal_to_binary.png*
 
@@ -108,7 +108,7 @@ This converted categorical values into binary (0/1) format, which is helpful for
 ---
 
 ### 8) Saving the Cleaned Dataset
-I saved the final cleaned dataset as:
+- I saved the final cleaned dataset as:
 **cleaned_weather_final.arff**
 
 ---
