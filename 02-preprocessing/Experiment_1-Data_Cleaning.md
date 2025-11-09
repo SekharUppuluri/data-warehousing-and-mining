@@ -57,5 +57,16 @@ After applying it, the missing value count became **zero**.
 
 ![Replaced Missing Values](/07-screenshots/cleaning/missing_replaced.png)
 
+---
+
+### 4) Removing Duplicate Records
+I applied the filter:
+Filter → unsupervised → instance → RemoveDuplicates
+There were no duplicate rows in this dataset, so the total number of instances remained the same.
+
+📸 *Screenshot 3: duplicates_removed.png*
+
+![Removed Duplicate Values](/07-screenshots/cleaning/duplicates_removed.png)
+
 
 
