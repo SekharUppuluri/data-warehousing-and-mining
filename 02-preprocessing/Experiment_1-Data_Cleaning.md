@@ -105,3 +105,9 @@ This converted categorical values into binary (0/1) format, which is helpful for
 ![Nominal To Binary Values](/07-screenshots/cleaning/nominal_to_binary_[without_remove_attributes].png)
 ![Nominal To Binary Values](/07-screenshots/cleaning/nominal_to_binary_edit[without_remove_attributes].png)
 
+---
+
+### 8) Saving the Cleaned Dataset
+I saved the final cleaned dataset as:
+cleaned_weather_final.arff
+
