@@ -44,5 +44,18 @@ This allowed me to demonstrate how WEKA handles missing data.
 
 ![Dataset with Missing Values](/07-screenshots/cleaning/dataset_with_missing.png)
 
+---
+
+### 3) Replacing Missing Values
+I used the filter:
+Filter → unsupervised → attribute → ReplaceMissingValues
+
+This filled the missing nominal values by using the **mode** (most frequent value).  
+After applying it, the missing value count became **zero**.
+
+📸 *Screenshot 2: missing_replaced.png*
+
+![Replaced Missing Values](/07-screenshots/cleaning/missing_replaced.png)
+
 
 
