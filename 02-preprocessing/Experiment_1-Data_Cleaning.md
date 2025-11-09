@@ -95,3 +95,13 @@ This helped reduce unnecessary features in the dataset.
 
 ---
 
+### 7) Converting Nominal Attributes to Binary (Attribute Encoding)
+Finally, I applied:
+Filter → unsupervised → attribute → NominalToBinary
+This converted categorical values into binary (0/1) format, which is helpful for algorithms that require numeric input.
+
+📸 *Screenshot 6: nominal_to_binary.png*
+
+![Nominal To Binary Values](/07-screenshots/cleaning/nominal_to_binary_[without_remove_attributes].png)
+![Nominal To Binary Values](/07-screenshots/cleaning/nominal_to_binary_edit[without_remove_attributes].png)
+
