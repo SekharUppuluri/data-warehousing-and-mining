@@ -75,5 +75,12 @@ This project is licensed under the **[MIT License](./LICENSE)**.
 You are free to use, modify, and distribute this work with attribution.  
 See the `LICENSE` file for full terms.
 
+---
+
+## 🌟 Author
+
+**Sekhar Uppuluri**
+
+If this helped you, consider giving the repository a ⭐ on GitHub 🙂
 
 
