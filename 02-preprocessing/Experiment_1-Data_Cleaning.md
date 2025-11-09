@@ -80,4 +80,18 @@ I still included this step to show awareness of when normalization applies.
 
 ![Normalized Values](/07-screenshots/cleaning/normalize.png)
 
+---
+
+### 6) Removing an Irrelevant Attribute
+Next, I removed an attribute using:
+Filter → unsupervised → attribute → Remove
+I specified the attribute index to remove.  
+This helped reduce unnecessary features in the dataset.
+
+📸 *Screenshot 5: attribute_removed.png*
+
+![Remove Attributes](/07-screenshots/cleaning/filter_attribute_indices.png) 
+![Remove Attributes](/07-screenshots/cleaning/attribute_removed.png)
+
+---
 
