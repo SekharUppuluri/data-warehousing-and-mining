@@ -6,6 +6,32 @@ MCA Laboratory Work: Data Preprocessing, ETL, OLAP, Association Rule Mining, Cla
 
 ---
 
+
+---
+
+## 🚀 Project Overview
+
+This repository contains the complete practical workflow for the **Data Warehousing and Data Mining (DMDW)** laboratory.  
+It demonstrates how raw data is cleaned, transformed, stored in warehouse models, analyzed using OLAP operations, and mined for patterns using classification, clustering, and frequent itemset mining algorithms.
+
+ <!--The work is aligned with **MCA Academic Curriculum** and structured for **exam submission, viva explanation, and portfolio presentation**. -->
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Data Cleaning (handling missing values, duplicates, irrelevant attributes)
+- Data Transformation (Normalization, Standardization, Discretization, Encoding)
+- Dimensional Modeling (Star & Snowflake Schema Design)
+- ETL Pipeline Understanding **(Extract → Transform → Load)**
+- OLAP Operations (Roll-Up, Drill-Down, Slice, Dice)
+- **[Frequent Pattern Mining](./04-pattern-mining/)** using Apriori Algorithm
+- **[classification](./05-classification/)** using Decision Tree (J48) and Naive Bayes
+- **[Clustering](./06-clustering-outlier/)** using K-Means and Outlier Detection
+- Evaluation & Interpretation of Data Mining Results
+
+---
+
 ## 📂 Repository Structure
 
 ```plaintext
