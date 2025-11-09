@@ -45,3 +45,16 @@ data-warehousing-and-mining/
 | **[06 clustering-outlier](./06-clustering-outlier/)** | K-Means and outlier analysis |
 | **[07 screenshots](./07-screenshots/)** | Proof of work for practical record & viva |
 
+
+---
+
+## 🛠 Tools Used
+
+| Tool / Technology | Usage |
+|--------------------|--------|
+| **WEKA** | Data preprocessing, mining, modeling & evaluation |
+| **VS Code** | Repository editing and documentation |
+| **Git & GitHub** | Version control and project portfolio hosting |
+<!--| **Draw.io / StarUML** | Data warehouse schema and OLAP modeling diagrams | -->
+
+
