@@ -1,0 +1,20 @@
+@relation 'weather.symbolic-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Remove-R1,3'
+
+@attribute temperature {hot,mild,cool}
+@attribute windy {TRUE,FALSE}
+@attribute play {yes,no}
+
+@data
+hot,FALSE,no
+hot,TRUE,no
+hot,FALSE,yes
+mild,FALSE,yes
+mild,FALSE,no
+mild,TRUE,yes
+mild,TRUE,no
+mild,FALSE,yes
+mild,TRUE,yes
+cool,FALSE,yes
+cool,TRUE,no
+cool,TRUE,yes
+cool,FALSE,yes

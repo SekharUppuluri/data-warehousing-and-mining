@@ -1,0 +1,26 @@
+@relation weather.symbolic-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last
+
+@attribute outlook=sunny numeric
+@attribute outlook=overcast numeric
+@attribute outlook=rainy numeric
+@attribute temperature=hot numeric
+@attribute temperature=mild numeric
+@attribute temperature=cool numeric
+@attribute humidity=normal numeric
+@attribute windy=FALSE numeric
+@attribute play {yes,no}
+
+@data
+1,0,0,1,0,0,0,1,no
+0,0,1,1,0,0,0,0,no
+0,1,0,1,0,0,0,1,yes
+0,0,1,0,1,0,0,1,yes
+1,0,0,0,1,0,0,1,no
+0,0,1,0,1,0,0,0,yes
+0,0,1,0,1,0,0,0,no
+0,0,1,0,1,0,1,1,yes
+0,0,1,0,1,0,1,0,yes
+0,0,1,0,0,1,1,1,yes
+0,0,1,0,0,1,0,0,no
+0,1,0,0,0,1,1,0,yes
+1,0,0,0,0,1,1,1,yes
