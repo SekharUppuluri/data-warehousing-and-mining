@@ -109,11 +109,19 @@ This converted categorical values into binary (0/1) format, which is helpful for
 
 ### 8) Saving the Cleaned Dataset
 I saved the final cleaned dataset as:
-cleaned_weather_final.arff
+**cleaned_weather_final.arff**
 
 ---
 
 ## Observation (My Understanding)
 
-While performing this experiment, I observed that WEKA automatically handles missing nominal values using mode. The dataset did not contain duplicate instances, so removing duplicates did not affect the instance count. Normalization had no effect since all attributes were nominal. I also learned how removing attributes can simplify the dataset and how nominal values can be converted into binary form to make the data suitable for machine learning models.
+While performing this experiment, I observed that **WEKA 3.9.6** automatically handles missing nominal values using mode. The dataset did not contain duplicate instances, so removing duplicates did not affect the instance count. Normalization had no effect since all attributes were nominal. I also learned how removing attributes can simplify the dataset and how nominal values can be converted into binary form to make the data suitable for machine learning models.
+
+---
+
+## Result
+
+The dataset was successfully cleaned and prepared for further data processing and data mining tasks.  
+Missing values were handled, duplicate checks were done, unnecessary attributes were removed, and nominal attributes were encoded properly.
+
 
