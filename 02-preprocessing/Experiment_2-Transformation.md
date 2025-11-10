@@ -127,3 +127,13 @@ The dataset was successfully transformed using the applied techniques:
 - **Nominal attributes** were converted into binary attributes, making the dataset ready for further analysis.
 
 ---
+<!-- 
+## Viva Notes (What I Will Say If Asked)
+
+| **Question**                                            | **My Answer**                                                                                 |
+|---------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **Why did you apply normalization and standardization?** | Normalization scales attributes into a specific range, while standardization centers the data around a mean of 0 with a standard deviation of 1, which improves the performance of many algorithms. |
+| **What is the purpose of discretization?**              | Discretization converts continuous data into categories, which can simplify analysis and may improve performance in certain machine learning models. |
+| **Why convert nominal to binary?**                      | Converting nominal attributes into binary makes them usable in algorithms that require numerical input, such as support vector machines or decision trees. |
+
+--- -->
