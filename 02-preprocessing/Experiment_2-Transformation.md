@@ -107,3 +107,23 @@ Here’s how the data looks before and after transformations:
 | **PetalLength** | 1.0 – 6.9          | 0.00 – 1.00                   | -1.56 – 1.74                       |
 | **PetalWidth**  | 0.1 – 2.5          | 0.00 – 1.00                   | -1.45 – 1.63                       |
 
+---
+
+## Observation (My Understanding)
+
+During this experiment, I observed that:
+- **Normalization** scaled the numeric attributes to the range [0, 1], which is useful for algorithms that are sensitive to the scale of data.
+- **Standardization** adjusted the data to have a mean of 0 and standard deviation of 1, which is particularly helpful for distance-based algorithms.
+- **Discretization** transformed continuous attributes into categorical intervals, simplifying the analysis.
+- **Nominal to Binary conversion** was applied to convert categorical data into a binary format for machine learning algorithms that require numeric input.
+
+---
+
+## Result
+
+The dataset was successfully transformed using the applied techniques:
+- **Normalization** and **Standardization** changed the scale and distribution of numeric attributes.
+- **Discretization** converted continuous attributes into categorical ranges.
+- **Nominal attributes** were converted into binary attributes, making the dataset ready for further analysis.
+
+---
