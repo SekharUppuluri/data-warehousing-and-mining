@@ -95,3 +95,15 @@ Data transformation in data mining is the process of converting raw data into a 
 <!-- 📸 *Screenshot 5: saved_transformed.png* -->
 
 ---
+
+## Sample Example: Transformation Results
+
+Here’s how the data looks before and after transformations:
+
+| **Attribute**   | **Original Range** | **After Normalization (0–1)** | **After Standardization (Z-score)** |
+|-----------------|--------------------|-------------------------------|-------------------------------------|
+| **SepalLength** | 4.3 – 7.9          | 0.00 – 1.00                   | -1.87 – 1.96                       |
+| **SepalWidth**  | 2.0 – 4.4          | 0.00 – 1.00                   | -2.43 – 2.48                       |
+| **PetalLength** | 1.0 – 6.9          | 0.00 – 1.00                   | -1.56 – 1.74                       |
+| **PetalWidth**  | 0.1 – 2.5          | 0.00 – 1.00                   | -1.45 – 1.63                       |
+
