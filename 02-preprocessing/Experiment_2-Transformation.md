@@ -42,3 +42,16 @@ Data transformation in data mining is the process of converting raw data into a 
 📸 *Screenshot 0: loaded.png*
 
 ![Iris Dataset Loaded](/07-screenshots/transformation/iris_dataset_loaded.png)
+
+---
+### Step 3: Apply Normalization
+- Go to **Filter → unsupervised → attribute → Normalize**.
+- Click **Apply**.
+- Observe that numeric attributes are now scaled between **0** and **1**.
+- **Purpose**: Useful when attributes have different units (e.g., cm, kg).
+
+📸 *Screenshot 1: normalization.png*
+
+![Iris Normalized](/07-screenshots/transformation/normalized_iris.png)
+
+---
