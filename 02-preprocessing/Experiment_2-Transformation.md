@@ -65,3 +65,17 @@ Data transformation in data mining is the process of converting raw data into a 
 📸 *Screenshot 2: standardization.png*
 
 ![Iris standardized](/07-screenshots/transformation/standardized_iris.png)
+
+---
+### Step 5: Discretize Attributes
+- Reload the dataset.
+- Choose **unsupervised → attribute → Discretize**.
+- Click the filter name to open settings → choose the number of bins (e.g., **4**).
+- Click **Apply**.
+- Numeric attributes are now converted into categorical ranges (e.g., PetalLength → “low”, “medium”, “high”, “very high”).
+
+📸 *Screenshot 3: discretized.png*
+
+![Iris Discretized](/07-screenshots/transformation/discretized_iris.png)
+
+---
