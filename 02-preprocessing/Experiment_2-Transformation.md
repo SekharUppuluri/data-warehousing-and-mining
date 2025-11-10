@@ -12,3 +12,19 @@ The objective of this experiment is to apply various data transformation techniq
 - **Dataset**: 
   - **iris.arff** (available in WEKA’s sample data folder)
 ---
+
+## Theory (In My Words)
+
+Data transformation in data mining is the process of converting raw data into a suitable format for analysis. Techniques like normalization, aggregation, and generalization are applied to ensure that the data is structured, consistent, and ready for mining algorithms. This preprocessing step improves data quality and accuracy, ultimately enhancing the performance of data mining tasks.
+
+### Types of Data Transformation:
+| **Transformation Type**      | **Description**                                                 | **WEKA Filter**                       |
+|------------------------------|-----------------------------------------------------------------|---------------------------------------|
+| **Normalization**             | Scales numeric attributes into a specific range (typically [0, 1]). | `unsupervised → attribute → Normalize` |
+| **Standardization (Z-score)** | Transforms attributes to have mean = 0 and standard deviation = 1. | `unsupervised → attribute → Standardize` |
+| **Discretization**            | Converts continuous attributes into nominal (categorical) intervals. | `unsupervised → attribute → Discretize` |
+| **Nominal to Binary Conversion** | Converts categorical attributes into multiple binary attributes. | `unsupervised → attribute → NominalToBinary` |
+| **Numeric to Nominal**        | Converts numeric attributes into nominal types.                | `unsupervised → attribute → NumericToNominal` |
+| **Principal Components**      | Reduces dimensionality by projecting data onto principal components. | `unsupervised → attribute → PrincipalComponents` |
+
+---
