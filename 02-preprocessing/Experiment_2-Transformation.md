@@ -55,3 +55,13 @@ Data transformation in data mining is the process of converting raw data into a 
 ![Iris Normalized](/07-screenshots/transformation/normalized_iris.png)
 
 ---
+
+### Step 4: Apply Standardization (Z-score)
+- **Reset or reload** the dataset.
+- Choose filter: **unsupervised → attribute → Standardize** → **Apply**.
+- Values are now centered around **mean 0** with **standard deviation 1**.
+- **Purpose**: Improves performance of distance-based algorithms like **KNN** or **SVM**.
+
+📸 *Screenshot 2: standardization.png*
+
+![Iris standardized](/07-screenshots/transformation/standardized_iris.png)
