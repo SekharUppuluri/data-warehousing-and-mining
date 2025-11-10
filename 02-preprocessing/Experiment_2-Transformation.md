@@ -88,3 +88,10 @@ Data transformation in data mining is the process of converting raw data into a 
 ![Iris Nominal To Binary](/07-screenshots/transformation/nominal_to_binary_iris.png[panel].png)
 
 ![Iris Nominal To Binary](/07-screenshots/transformation/nominal_to_binary_iris.png[edit].png)
+
+### Step 7: Save the Transformed Data
+- After applying transformations, click **Save** → name the file as **transformed_iris.arff** or **transformed_dataset.csv**.
+
+<!-- 📸 *Screenshot 5: saved_transformed.png* -->
+
+---
