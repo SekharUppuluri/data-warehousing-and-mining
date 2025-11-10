@@ -28,3 +28,17 @@ Data transformation in data mining is the process of converting raw data into a 
 | **Principal Components**      | Reduces dimensionality by projecting data onto principal components. | `unsupervised → attribute → PrincipalComponents` |
 
 ---
+
+
+## Procedure (Steps I Performed)
+
+### Step 1: Start WEKA
+- Launch WEKA GUI Chooser → Click **Explorer**.
+
+### Step 2: Load Dataset
+- In the **Preprocess** tab, click **Open file** → Choose **iris.arff** (or your dataset).
+- View attributes and check their types (numeric or nominal).
+
+📸 *Screenshot 0: loaded.png*
+
+![Iris Dataset Loaded](/07-screenshots/transformation/iris_dataset_loaded.png)
