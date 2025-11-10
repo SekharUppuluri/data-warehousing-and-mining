@@ -7,7 +7,7 @@ Implementing Data Cleaning Techniques on a Dataset using WEKA
 My objective in this experiment was to clean a dataset by identifying and resolving missing values, checking for duplicate records, optionally applying normalization, removing irrelevant attributes, and performing basic attribute conversion using WEKA.
 
 ## Software Used
-- WEKA 3.9.6
+-  WEKA (Waikato Environment for Knowledge Analysis) – Version 3.9.6
 - Operating System: Windows 11
 - Dataset Used: `weather.nominal.arff` (WEKA sample dataset)
 
