@@ -79,3 +79,12 @@ Data transformation in data mining is the process of converting raw data into a 
 ![Iris Discretized](/07-screenshots/transformation/discretized_iris.png)
 
 ---
+
+### Step 6: Apply Nominal to Binary Conversion
+- Choose **unsupervised → attribute → NominalToBinary** to convert categorical values into binary attributes.
+
+📸 *Screenshot 4: nominal_to_binary.png*
+
+![Iris Nominal To Binary](/07-screenshots/transformation/nominal_to_binary_iris.png[panel].png)
+
+![Iris Nominal To Binary](/07-screenshots/transformation/nominal_to_binary_iris.png[edit].png)
