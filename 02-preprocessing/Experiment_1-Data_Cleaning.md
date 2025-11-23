@@ -125,7 +125,7 @@ The dataset was successfully cleaned and prepared for further data processing an
 Missing values were handled, duplicate checks were done, unnecessary attributes were removed, and nominal attributes were encoded properly.
 
 ---
-
+<!--
 ## Viva Notes (What I Will Say If Asked)
 
 | Question | My Answer |
@@ -134,4 +134,4 @@ Missing values were handled, duplicate checks were done, unnecessary attributes 
 | How were missing nominal values replaced? | WEKA replaced them using the **mode**, which is the most frequent category. |
 | Why convert nominal to binary? | To make categorical data usable in algorithms that require numeric input. |
 
-
+-->
